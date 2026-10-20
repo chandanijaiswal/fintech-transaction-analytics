@@ -29,6 +29,7 @@ Synthetic dataset (created for practice, not real customer data):
 - Successful volume: INR 15,364,720.78
 - Average ticket size: INR 3,256.62
 - Fraud rate: 1.21% of successful transactions
+- - Loan EMI, Travel and Investments are the three categories with the highest transaction volume.
 
 ## Key insights
 - Net Banking has the highest failure rate (7.92%), about 2.6 times higher than Debit Card (3.01%).
@@ -40,7 +41,17 @@ Synthetic dataset (created for practice, not real customer data):
 - Add extra verification (OTP or a transaction limit) for late-night payments.
 
 ## Charts
-See the `outputs` folder: failure by payment method, fraud by hour, monthly volume, category volume.
+### Failure rate by payment method
+![Failure rate by payment method](failure_by_method.png)
+
+### Fraud rate by hour of day
+![Fraud rate by hour](fraud_by_hour.png)
+
+### Monthly transaction volume
+![Monthly volume](monthly_volume.png)
+
+### Volume by category
+![Category volume](category_volume.png)
 
 ## Files
 - `Fintech_Analysis.ipynb` : the full analysis
